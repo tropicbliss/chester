@@ -1,10 +1,10 @@
 from ultralytics import YOLO
 
-file_path = ""
+image_path = ""
 
 model = YOLO("withcovid.pt")
 
-model(file_path)
+model(image_path)
 
 
 
