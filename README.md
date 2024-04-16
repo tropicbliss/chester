@@ -15,4 +15,4 @@ Two separate models are provided. `withoutcovid.pt` only predicts whether a pers
 ![](assets/withoutcovid/results.png)
 
 ## Is the model open source?
-No it is not. There are way better models out there anyway.
+No it is not. There are way better models out there anyway. Notably, this model is trained on low resolution images of 640px in length and breadth, while radiologists will typically examine radiographies of way higher resolution (+2000px). This is merely created for educational purposes.
