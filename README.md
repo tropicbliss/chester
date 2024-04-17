@@ -4,6 +4,8 @@ Machine learning model to detect cases of pneumonia or COVID-19 from chest X-ray
 
 Two separate models are provided. `withoutcovid.pt` only predicts whether a person is healthy or has pneumonia (and does not take COVID-19 into account) such that accuracy can be improved from a lower amount of classes available for it to train on.
 
+I've added an `mnist.pt` file for digit classification just for fun idk.
+
 ## Prediction
 ![](assets/withcovid/val_batch1_pred.jpg)
 ## Actual labels
