@@ -1,4 +1,0 @@
-[ZoneTransfer]
-ZoneId=3
-ReferrerUrl=http://127.0.0.1:8984/tree/mnist/runs/classify/train2/weights
-HostUrl=http://127.0.0.1:8984/files/mnist/runs/classify/train2/weights/best.pt?_xsrf=2%7Cbd5b1b43%7C2d77cd7c7744c7fe3a7cd82ec0e7c4d7%7C1713244237
