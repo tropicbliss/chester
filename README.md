@@ -17,4 +17,4 @@ I've added an `mnist.pt` file for digit classification just for fun idk.
 ![](assets/withoutcovid/results.png)
 
 ## Is the model open source?
-No it is not. There are way better models out there anyway. Notably, this model is trained on low resolution images of 640px in length and breadth, while radiologists will typically examine radiographies of way higher resolution (+2000px). This is merely created for educational purposes. Training with images of greater resolutions require time and money, two things I do not have much of. To compensate for that, I applied random scaling during image augmentation to hopefully preserve some of the details.
+No it is not, there are way better models out there anyway. Crucially, this model is trained on low resolution images of 1024px in length and breadth while radiologists will typically examine radiographies of much higher resolutions (+2000px). As this is merely created for educational purposes, I do not feel like spending too much time and money on this endeavour.
